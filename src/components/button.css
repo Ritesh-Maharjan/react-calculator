@@ -1,0 +1,23 @@
+button {
+    padding: 0.5rem;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.ac {
+    grid-column: 1/4;
+    background-color: red;
+}
+
+.mc {
+    background-color: red;
+}
+
+.number {
+    background-color: black;
+    color: white;
+}
+
+.equal {
+    grid-column: 1/4;
+}

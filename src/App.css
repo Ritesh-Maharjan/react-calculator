@@ -1,0 +1,21 @@
+.calculator {
+  width: 20rem;
+  background-color: black;
+  border-radius: 2rem;
+}
+
+.screen {
+  background-color: grey;
+  text-align: end;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem 1rem 0 0;
+  height: 4rem;
+  overflow: hidden;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+  gap: 1rem;
+}
